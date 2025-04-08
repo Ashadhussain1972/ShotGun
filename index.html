@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Buckshot Roulette</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="game-container">
+    <h1>🔫 Buckshot Roulette</h1>
+    <p id="output">Enter number of players (2-4):</p>
+    <input type="number" id="playerInput" min="2" max="4" />
+    <button id="start">Start Game</button>
+
+    <div id="currentTurn" class="turn-indicator"></div>
+    <button id="nextTurn" style="display: none;">Next Turn</button>
+
+    <div id="playerContainer" class="players"></div>
+  </div>
+
+  <script src="player.js"></script>
+</body>
+</html>
