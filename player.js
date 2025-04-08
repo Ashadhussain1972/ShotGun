@@ -259,3 +259,4 @@ function startGame() {
 }
 
 start.addEventListener("click", startGame);
+ 
